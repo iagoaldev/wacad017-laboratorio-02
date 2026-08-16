@@ -1,4 +1,17 @@
 {
-  "name": "exemplo",
-  "main": "app.js"
+  "name": "wacad017-laboratorio-02",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint src tests",
+    "test": "vitest run",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "eslint": "10.8.1",
+    "vite": "8.2.1",
+    "vitest": "4.1.10"
+  }
 }

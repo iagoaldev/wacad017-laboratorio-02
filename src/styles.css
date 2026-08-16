@@ -1,0 +1,27 @@
+:root {
+  color: #e6edf3;
+  background: #0d1117;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  place-items: center;
+}
+
+.card {
+  width: min(32rem, calc(100% - 4rem));
+  padding: 3rem;
+  border: 1px solid #30363d;
+  border-radius: 1rem;
+  background: #161b22;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 35%);
+}
+
+.eyebrow {
+  color: #58a6ff;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
